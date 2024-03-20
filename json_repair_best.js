@@ -784,5 +784,4 @@ function atEndOfBlockComment(text, i) {
   return text[i] === "*" && text[i + 1] === "/";
 }
 
-const input = `\t{"input_1.3": "Seth Hines", "input_2": "seth.hines@sproutsocial.com", "input_3": "2066127308", "input_4": "7153 30th Ave SW", "input_5": "2 Tress that need trimming"}`;
-return jsonrepair(input);
+jsonrepair(input)
